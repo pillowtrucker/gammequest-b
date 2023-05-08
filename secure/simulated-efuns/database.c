@@ -13,7 +13,7 @@ public nomask int DatabaseVersion()
 /////////////////////////////////////////////////////////////////////////////
 public nomask string RealmsDatabase()
 {
-    return "RealmsLib";
+    return "mymud";
 }
 
 /////////////////////////////////////////////////////////////////////////////
@@ -216,8 +216,8 @@ public nomask varargs int db_connect(string database, string user,
         // that used by your MUD. If you would prefer to be a bit less secure,
         // you can change DBUSER and DBPASS on the line below, uncomment it,
         // and comment out the other call.
-        // handle = efun::db_connect(database, DBUSER, DBPASS);
-        handle = efun::db_connect(database);
+        handle = efun::db_connect(database, "mymud", "mymud");
+        //handle = efun::db_connect(database);
     }
 
     if (!hasBeenValidated)
