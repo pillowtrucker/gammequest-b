@@ -12,6 +12,7 @@ public nomask void SetupCommand()
     addCommandTemplate("l [-b] [(at|in) ##Target##]");
     addCommandTemplate("examine [-b] [##Target##]");
     addCommandTemplate("exa [-b] [##Target##]");
+    addCommandTemplate("x [-b] [##Target##]");
     addCommandTemplate("glance [(at|in) ##Target##]");
 }
 

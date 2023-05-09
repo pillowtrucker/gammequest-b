@@ -11,6 +11,7 @@ public nomask void SetupCommand()
 {
     CommandType = "Interactions";
     addCommandTemplate("get [-a] [##Item##] [from ##Target##]");
+    addCommandTemplate("take [-a] [##Item##] [from ##Target##]");
     addCommandTemplate("pick up [-a] ##Item##");
 }
 
