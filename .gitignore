@@ -73,3 +73,5 @@ sys/trace.h
 sys/wizlist.h
 sys/xml.h
 *.log
+LW_SWAP*
+LP_SWAP*

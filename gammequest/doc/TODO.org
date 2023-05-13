@@ -1,0 +1,8 @@
+* make Friends guild, display number of Friends gained so far (on every screen or maybe just in table)
+* write [[file:TIMELINES.org][TIMELINES]]
+* test branching timelines with state machine module
+** UML state chart
+* test dialogues
+** add TIMTOM
+* add inc*g, h*x, w**kie, etc sidequests
+* add The Thing sidequest
